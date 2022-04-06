@@ -1,0 +1,45 @@
+
+from math import pi
+from operator import truediv, floordiv, mod
+
+def sub(a , b):
+  return a - b
+
+def add(a , b):
+  return a + b
+
+def mul(a,b):
+  return a * b
+
+
+def max(a,b):
+   if(a > b):
+    return a
+   else:
+    return b
+
+def min(a,b):
+   if(a < b):
+    return a
+   else:
+    return b
+
+f = min
+f = max
+g, h = min, max
+max = g
+print(max(f(2,g(h(1,5),3)),4))
+
+a = 0
+b = 1
+c = 0 
+n = 1
+while n <= 100:
+    c = a + b
+    print(c)
+    a = b
+    b = c
+    n = n + 1
+
+      
+     
